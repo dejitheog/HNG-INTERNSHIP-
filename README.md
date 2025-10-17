@@ -50,6 +50,31 @@ Font Awesome — for social media icons
 
 
 
+##  Setup Instructions (Run Locally)
+
+Follow these steps to view or test the project locally on your computer:
+
+1. **Clone this repository**  
+   ```bash
+   git clone https://github.com/dejitheog/HNG-INTERNSHIP-.git
+   
+2. **Navigate the project folder**
+    cd HNG-INTERNSHIP-
+
+3. **Open the project**
+   Use VS Code’s Live Server extension to preview it.
+
+
+
+
+🌐 Live Preview
+
+🔗 Live Site: https://your-netlify-link.netlify.app
+
+
+
+
+
 
 ## Author
 
