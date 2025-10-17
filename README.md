@@ -22,3 +22,17 @@ Each visible element includes a data-testid attribute for automated testing and 
 
 
 
+## For Live Preview
+
+🔗 Live Site: https://beautiful-croquembouche-4b4c06.netlify.app/
+
+
+
+
+
+
+## Author
+
+Olorunsola Peculiar David
+Front-End Developer | Fashion & Tech Enthusiast 
+Lagos, Nigeria
