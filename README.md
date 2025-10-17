@@ -20,6 +20,25 @@ Lists of hobbies and dislikes
 Each visible element includes a data-testid attribute for automated testing and validation.
 
 
+## Technologies Used
+HTML — semantic and accessible markup
+CSS — responsive design with Flexbox and media queries
+Vanilla JavaScript — dynamic time rendering
+Font Awesome — for social media icons
+
+
+
+##  How to Run Locally
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/dejitheog/HNG-INTERNSHIP-.git
+2. **Navigate to the folder:**
+   cd HNG-INTERNSHIP-
+
+3. **Open the project in your browser:**
+    Run with VS Code Live Server.
+
 
 
 ## For Live Preview
