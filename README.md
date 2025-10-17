@@ -40,7 +40,7 @@ Each visible element includes a data-testid attribute for automated testing and 
 
 ## Technologies Used
 
-HTML5 — semantic and accessible markup
+HTML — semantic and accessible markup
 
 CSS — responsive design with Flexbox and media queries
 
