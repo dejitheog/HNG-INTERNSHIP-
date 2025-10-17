@@ -71,6 +71,8 @@ Follow these steps to view or test the project locally on your computer:
 
 🔗 Live Site: https://your-netlify-link.netlify.app
 
+🔗 GitHub Repository: https://github.com/dejitheog/HNG-INTERNSHIP-
+
 
 
 
