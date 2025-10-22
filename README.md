@@ -57,16 +57,6 @@ It demonstrates responsive design, accessibility, and client-side validation, fo
 
 ##  Overview
 
-##  Profile Page (`index.html`)
-- Displays a **profile card** with:
-  - Profile picture  
-  - Name, short bio & social links  
-  - Live, auto-updating **current time (in milliseconds)**  
-- Features hover transitions, rounded corners, and a soft gradient background.  
-- Fully responsive — rearranges layout neatly on tablets and phones.  
-- Includes a **navigation bar** linking to other pages, highlighting the active link.
-
-
 ## About Page (`about.html`)
 - Contains **five structured sections**:
   - My Bio  
