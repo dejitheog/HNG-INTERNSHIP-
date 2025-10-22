@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Contact Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+  <main>
+    <article class="profile-card">
+
+      <!-- Navbar -->
+      <header class="navbar" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" data-testid="test-nav-profile">Profile</a></li>
+          <li><a href="contact.html" class="active" data-testid="test-nav-contact">Contact</a></li>
+          <li><a href="about.html" data-testid="test-nav-about">About Me</a></li>
+        </ul>
+      </header>
+
+      <!-- Contact Form Section -->
+      <section class="contact-section">
+        <h2>Contact David</h2>
+
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" data-testid="test-contact-name" required aria-describedby="error-name">
+              <p id="error-name" class="error-message" data-testid="test-contact-error-name"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" data-testid="test-contact-email" required aria-describedby="error-email">
+              <p id="error-email" class="error-message" data-testid="test-contact-error-email"></p>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" data-testid="test-contact-subject" required aria-describedby="error-subject">
+              <p id="error-subject" class="error-message" data-testid="test-contact-error-subject"></p>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group full-width">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" data-testid="test-contact-message" required aria-describedby="error-message"></textarea>
+              <p id="error-message" class="error-message" data-testid="test-contact-error-message"></p>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <button type="submit" data-testid="test-contact-submit">Send Message</button>
+          </div>
+
+          <p id="success-message" data-testid="test-contact-success" class="success-message" style="display:none;">
+            ✅ Your message has been successfully sent!
+          </p>
+
+        </form>
+      </section>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

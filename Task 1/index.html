@@ -1,95 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PROFILE CARD TASK</title>
-  <link rel="stylesheet" href="style.css" />
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROFILE CARD TASK</title>
+    <link rel="stylesheet" href="style.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-  />
-</head>
-<body>
-  <main>
-    <!-- Profile Card -->
-    <article data-testid="test-profile-card" class="profile-card">
-      
-      <!-- Avatar -->
-      <figure class="avatar-container">
-        <img 
-          src="images/deji.jpg" 
-          alt="User Avatar" 
-          data-testid="test-user-avatar" 
-          class="avatar-img"
-        />
-      </figure>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- Profile Card -->
+      <article data-testid="test-profile-card" class="profile-card">
 
-      <!-- User Info -->
-      <section class="info-section">
-        <header>
-          <h2 data-testid="test-user-name">Olorunsola Peculiar David</h2>
-        </header>
-
-        <p data-testid="test-user-bio">
-            My name is Olorunsola Peculiar David, a FrontEnd Developer based in Lagos, Nigeria. 
-            From solving equations to styling outfits and coding websites. I love to blend logic, creativity, into everything I do.
-            I am developer who loves bringing creativity into everything I do.
+         <!-- Navbar -->
+    <header class="navbar" role="navigation" aria-label="Main Navigation">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active" data-testid="test-nav-profile">Profile</a></li>
+        <li><a href="contact.html" data-testid="test-nav-contact">Contact</a></li>
+        <li><a href="about.html" data-testid="test-nav-about">About Me</a></li>
+      </ul>
+    </header> 
         
-        </p>
+        <!-- Avatar -->
+        <figure class="avatar-container">
+          <img 
+            src="images/deji.jpg" 
+            alt="User Avatar" 
+            data-testid="test-user-avatar" 
+            class="avatar-img"
+          />
+        </figure>
 
-        <p class="time">
-          Current Time (ms): <span data-testid="test-user-time" id="user-time"></span>
-        </p>
+        <!-- User Info -->
+        <section class="info-section">
+          <header>
+            <h2 data-testid="test-user-name">Olorunsola Peculiar David</h2>
+          </header>
 
-        <!-- Social Links -->
-        <nav aria-label="Social Links">
-          <ul data-testid="test-user-social-links" class="social-links">
-            <li>
+          <p data-testid="test-user-bio">
+            My name is Olorunsola Peculiar David, a FrontEnd Developer based in Lagos, Nigeria. 
+            From solving equations to styling outfits and coding websites, I love to blend logic and creativity into everything I do.
+          </p>
+
+          <p class="time">
+            Current Time (ms): <span data-testid="test-user-time" id="user-time"></span>
+          </p>
+
+          <!-- Social Links -->
+          <nav aria-label="Social Links">
+            <ul data-testid="test-user-social-links" class="social-links">
+              <li>
                 <i class="fa-brands fa-github"></i>
-              <a href="https://github.com/dejitheog" 
-                 target="_blank" 
-                 rel="noopener noreferrer" 
-                 data-testid="test-user-social-github">
-                 GitHub
-              </a>
-            </li>
+                <a href="https://github.com/dejitheog" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  data-testid="test-user-social-github">
+                  GitHub
+                </a>
+              </li>
 
-            <li>
+              <li>
                 <i class="fa-brands fa-linkedin"></i>
-              <a href="https://www.linkedin.com/in/peculiar-olorunsola-7663a3212/" 
-                 target="_blank" 
-                 rel="noopener noreferrer" 
-                 data-testid="test-user-social-linkedin">
-                 LinkedIn
-              </a>
-            </li>
-          </ul>
-        </nav>
+                <a href="https://www.linkedin.com/in/peculiar-olorunsola-7663a3212/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  data-testid="test-user-social-linkedin">
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </nav>
 
-        <!-- Hobbies -->
-        <section class="list-section">
-          <h3>Hobbies</h3>
-          <ul data-testid="test-user-hobbies">
-            <li>Reading</li>
-            <li>Designing</li>
-            <li>Travelling</li>
-          </ul>
-        </section>
+         <!-- Likes and Dislikes Container -->
+<section class="likes-dislikes-container">
+  <div class="list-section">
+    <h3>Hobbies</h3>
+    <ul data-testid="test-user-hobbies">
+      <li>Reading</li>
+      <li>Designing</li>
+      <li>Travelling</li>
+    </ul>
+  </div>
 
-        <!-- Dislikes -->
-        <section class="list-section">
-          <h3>Dislikes</h3>
-          <ul data-testid="test-user-dislikes">
-            <li>Procrastination</li>
-            <li>Messy Environment</li>
-            <li>Disturbance</li>
-          </ul>
-        </section>
-      </section>
-    </article>
-  </main>
+  <div class="list-section">
+    <h3>Dislikes</h3>
+    <ul data-testid="test-user-dislikes">
+      <li>Procrastination</li>
+      <li>Messy Environment</li>
+      <li>Disturbance</li>
+    </ul>
+  </div>
+</section>
 
-  <script src="script.js"></script>
-</body>
-</html>
+
+          
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
