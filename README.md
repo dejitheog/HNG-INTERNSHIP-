@@ -47,6 +47,48 @@ Font Awesome — for social media icons
 
 
 
+## STAGE 1 TASK 
+
+#  Responsive Profile, About & Contact Pages
+
+A **multi-page frontend project** featuring a **Profile Page**, **About Page**, and **Contact Page** — built with **HTML**, **CSS**, and **Vanilla JavaScript**.  
+It demonstrates responsive design, accessibility, and client-side validation, following best modern web development practices.
+
+
+##  Overview
+
+##  Profile Page (`index.html`)
+- Displays a **profile card** with:
+  - Profile picture  
+  - Name, short bio & social links  
+  - Live, auto-updating **current time (in milliseconds)**  
+- Features hover transitions, rounded corners, and a soft gradient background.  
+- Fully responsive — rearranges layout neatly on tablets and phones.  
+- Includes a **navigation bar** linking to other pages, highlighting the active link.
+
+
+## About Page (`about.html`)
+- Contains **five structured sections**:
+  - My Bio  
+  - My Goals in This Program  
+  - Areas of Low Confidence  
+  - Note to My Future Self  
+  - Extra Thoughts  
+- Designed with smooth hover effects and card shadows.  
+- Semantic HTML ensures accessibility and clarity.
+
+## Contact Page (`contact.html`)
+- Features a working **contact form** with:
+  - Full Name  
+  - Email Address  
+  - Subject  
+  - Message  
+- Includes **JavaScript validation** to:
+  - Ensure all fields are filled  
+  - Validate email format  
+  - Enforce minimum message length  
+- Displays **error** or **success** messages dynamically.  
+- Layout adapts perfectly to mobile screens.
 
 
 
